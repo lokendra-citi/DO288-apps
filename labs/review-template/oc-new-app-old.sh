@@ -7,4 +7,4 @@ oc new-app --name todo --file ~/todo-template.yaml \
     -p NPM_PROXY=http://${RHT_OCP4_NEXUS_SERVER}/repository/nodejs \
     -p PASSWORD=mypass \
     -p CLEAN_DATABASE=false \
-    # ADD MISSING fPARAMETERS AND CHANGE PARAMETER VALUES IF NEEDED
+    # ADD MISSING PARAMETERS AND CHANGE PARAMETER VALUES IF NEEDED

@@ -259,7 +259,7 @@ parameters:
   description: URL to a server that provides npm dependencies
   required: true
 - name: SECRET
-  displayName: Webhook Secret
+  displayName: Webhook Secret Here
   description: Secret for webhooks
   generate: expression
   from: '[a-zA-Z0-9]{40}'
