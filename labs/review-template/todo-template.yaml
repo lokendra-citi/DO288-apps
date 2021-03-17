@@ -264,12 +264,12 @@ parameters:
   generate: expression
   from: '[a-zA-Z0-9]{40}'
 - name: PASSWORD
-  displayName: Password
-  description: The database connection password
+  displayName: Database Password
+  description: Password to access the database
   generate: expression
   from: '[a-zA-Z0-9]{16}'
 - name: CLEAN_DATABASE
-  displayName: CLEAN_DATABASE
-  description: The database connection password
-  reuired: true
+  displayName: Initialize the database
+  description: If 'true', the database is cleaned when the application starts.
+  required: true
   value: "true"
